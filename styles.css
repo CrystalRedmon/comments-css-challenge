@@ -44,14 +44,31 @@ img {
 }
 
 
-.right_header{
-    float: right;
+.blue{
     color:  hsl(238, 40%, 52%);
 }
 
+
+
+.right_header{
+    float: right;
+    margin: .25em;
+}
+
 .reply{
+    position: relative; 
+    left: 12%;
     width: 50%;
-    margin-right: 8em;
+
+}
+
+button{
+    position: relative;
+    left: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: .5em;
+    height: 5em;
 
 }
 
