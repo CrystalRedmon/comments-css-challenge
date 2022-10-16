@@ -1,8 +1,52 @@
 .attribution {
     font-size: 11px;
     text-align: center;
-  }
+}
 
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
-  }
+}
+
+body {
+    background-color: hsl(228, 33%, 97%);
+}
+
+
+main{
+    width: 75%;
+    margin: auto;
+}
+
+div {
+    width: 75%;
+    margin: 5px auto 10px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    font-size: 1em;
+    padding: .5em 0em .5em 0em;
+
+}
+
+h2{
+    font-size: 1em;
+    padding: auto;
+}
+
+img {
+    width: 2em;
+}
+
+.activity{
+    color: hsl(211, 10%, 45%);
+}
+
+
+.right_header{
+    text-align: right;
+}
+
+.reply{
+    width: 50%;
+    margin-right: 8em;
+}
+
