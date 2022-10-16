@@ -18,6 +18,7 @@ main{
 }
 
 div {
+    
     width: 75%;
     margin: 5px auto 10px auto;
     background-color: hsl(0, 0%, 100%);
@@ -30,6 +31,8 @@ div {
 h2{
     font-size: 1em;
     padding: auto;
+    display: block;
+    clear: both;
 }
 
 img {
@@ -42,11 +45,13 @@ img {
 
 
 .right_header{
-    text-align: right;
+    float: right;
+    color:  hsl(238, 40%, 52%);
 }
 
 .reply{
     width: 50%;
     margin-right: 8em;
+
 }
 
