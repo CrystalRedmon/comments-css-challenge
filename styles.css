@@ -108,18 +108,38 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
     position: relative;
+  
 
 }
 
 #add_comment{
-    width: 75%;
+    width: 65%;
     margin: auto;
     border-color: hsl(223, 19%, 93%);
     border-radius: 10px;
+    position: relative;
+    left: 5%;
 }
 
 .self{
     position: relative;
     bottom: 5em;
+    left: 2.5%;
 
+}
+
+.send_comment{
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    width: 15%;
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 80%;
+ 
+
+}
+
+#comment_container{
+    position: relative;
 }
