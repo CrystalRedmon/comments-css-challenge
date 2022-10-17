@@ -13,7 +13,7 @@ body {
 }
 
 
-main{
+main {
     width: 75%;
     margin: auto;
     padding-top: 30px;
@@ -21,7 +21,7 @@ main{
 }
 
 div {
-    
+
     width: 75%;
     margin: 5px auto 20px auto;
     background-color: hsl(0, 0%, 100%);
@@ -35,7 +35,7 @@ div {
 
 }
 
-h2{
+h2 {
     font-size: 1em;
     padding: auto;
     display: block;
@@ -46,35 +46,42 @@ img {
     width: 2em;
 }
 
-.activity{
+.activity {
     color: hsl(211, 10%, 45%);
 }
 
 
-.blue{
-    color:  hsl(238, 40%, 52%);
+.blue {
+    color: hsl(238, 40%, 52%);
     font-weight: bold;
 }
 
-.red{
+
+
+.blue:hover,
+.red:hover {
+    opacity: .5;
+}
+
+.red {
     color: hsl(358, 79%, 66%);
 }
 
-.right_header{
+.right_header {
     float: right;
     margin: .25em;
     font-weight: bold;
 }
 
-.reply{
-    position: relative; 
+.reply {
+    position: relative;
     left: 12%;
     width: 50%;
 
 
 }
 
-button{
+button {
     position: relative;
     left: 30px;
     top: 60px;
@@ -82,7 +89,37 @@ button{
     border-radius: 10px;
     padding: .5em;
     height: 5em;
+}
 
+
+.vote {
+    color: hsl(238, 40%, 52%);
+    font-weight: bold;
+}
+
+/* input{
+    border-color: hsl(223, 19%, 93%);
+    width: 70%;
+    height: 30%;
+} */
+
+
+.comment_input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
 
 }
 
+#add_comment{
+    width: 75%;
+    margin: auto;
+    border-color: hsl(223, 19%, 93%);
+    border-radius: 10px;
+}
+
+.self{
+    position: relative;
+    bottom: 5em;
+
+}
